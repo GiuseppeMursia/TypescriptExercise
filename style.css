@@ -1,0 +1,84 @@
+/* Padding section */
+.padding {
+    padding:0.5em;
+}
+
+.padding_top {
+    padding-top: 16px;
+}
+
+/* Color section */
+.main_color {
+    color: #54818F;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #efefef;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;  
+    padding: 0.5em
+}
+
+#sub_container {
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    padding: 0.5em
+}
+  
+.sidebar {
+  height: 100%;
+  width: auto;
+  background-color: #54818F;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  /*padding: 6px 8px 6px 16px;*/
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  display: block;
+  text-align: justify;
+}
+
+.sidebar a:hover {
+  color: #eeeeee;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+.active {background-color: #4CAF50;}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+  
+table {
+    background-color: #d6dffc;
+} 
+td {
+    border-left: 1px solid #b6b6b6; 
+    font-weight: bold;
+    padding: 0.25em;
+}
+a {
+    text-decoration: none;
+    font-weight: normal;
+}
+button {
+    font-weight: bold;
+    background-color: rgb(179, 179, 180);
+}
+
+.typelogo {
+  width: 20px;
+	background-color: #54818f;
+}
