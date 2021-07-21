@@ -6,7 +6,7 @@ function myFunction() {
       text = "La stringa inserita non è valida" ;
     } else {
         let charachter: string = prompt("Quale carattere vuoi contare");
-      if(charachter.length != 1){
+      if(charachter.length != 1 && !charachter.match(/[a-z]/i)){
         text= "il carattere inserito non è valido"
     }else{
             let counts: number = 0;
