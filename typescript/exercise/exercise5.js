@@ -3,8 +3,8 @@
 
 function myFunction() {
     let text;
-    let stringa = prompt();
-    if ( stringa.length > 100 || !stringa.match(/[a-z]/i)) {
+    let stringa = prompt("Inserisci una stringa di massimo 100 caratteri");
+    if ( stringa.length > 100 && !stringa.match(/[a-z]/i)) {
       text = "La stringa inserita non è valida" ;
     } else {
         let charachter = prompt("Quale carattere vuoi contare");
