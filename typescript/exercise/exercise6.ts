@@ -6,12 +6,14 @@ function palindroma() {
     var len = str.length;
     for (var i = 0; i < len/2; i++) {
       if (str[i] !== str[len - 1 - i]) {
-        text = "la frase non è palindroma"
-        document.getElementById("demo").innerHTML = text;
-        return false;
+             text = "la frase non è palindroma"
+          document.getElementById("demo").innerHTML = text;
+          return false;
+      }
     }
-  }
-  text= "la frase è palindroma";
-  document.getElementById("demo").innerHTML = text;
-  return true;
+    let charachter = prompt("Quale carattere vuoi contare");
+    
+    text= "la frase è palindroma";
+    document.getElementById("demo").innerHTML = text;
+    return true;
 }
