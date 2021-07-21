@@ -6,11 +6,12 @@ function palindroma() {
     var len = str.length;
     for (var i = 0; i < len/2; i++) {
       if (str[i] !== str[len - 1 - i]) {
-          text = "la frase non è palindroma"
-          return false;
-      }
-      text= "la frase è palindroma";
-      return true;
+        text = "la frase non è palindroma"
+        document.getElementById("demo").innerHTML = text;
+        return false;
     }
-      document.getElementById("demo").innerHTML = text;
-    }
+  }
+  text= "la frase è palindroma";
+  document.getElementById("demo").innerHTML = text;
+  return true;
+}
