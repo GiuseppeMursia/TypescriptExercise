@@ -4,7 +4,7 @@ function mix(){
     text = "la frase non è palindroma"
     document.getElementById("demo").innerHTML = text
     let char = prompt("Quale carattere vuoi contare");
-    text = 'Il carattere inserito ' + char +'  si ripete:' + countChar(str,char) + ' volte e la frase' + (palindroma(str) ? 'è palindroma' : 'non è palindroma' ) + ', la parola al contrario è '+  '\n'+ str.split("").reverse().join("") + '\n'+ (urlContains(str) ? 'contiene url' : 'non contiene url' + '\n'+ (wordPalindrome(str) ? 'contiene parole palindrome' : 'non contiene parole palindrome' ); 
+    text = 'Il carattere inserito ' + char +'  si ripete:' + countChar(str,char) + ' volte e la frase' + (palindroma(str) ? 'è palindroma' : 'non è palindroma' ) + ', la parola al contrario è '+  '\n'+ str.split("").reverse().join("") + '\n'+ (urlContains(str) ? 'contiene url' : 'non contiene url');
     document.getElementById("demo").innerHTML = text;
 }
 
